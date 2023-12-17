@@ -32,6 +32,3 @@ INSERT INTO Pacote(nome, valor) VALUES ("Economica", 0);
 INSERT INTO Pacote(nome, valor) VALUES ("Economica Premium", 400);
 INSERT INTO Pacote(nome, valor) VALUES ("Executiva", 1500);
 INSERT INTO Pacote(nome, valor) VALUES ("Primeira classe", 5000);
-
-INSERT INTO Reserva(cliente_id, destino_id, pacote_id, data_partida, data_retorno, valor) VALUES (1, 1, 1, "2023-12-03", "2023-12-10", 100);
-INSERT INTO Reserva(cliente_id, destino_id, pacote_id, data_partida, data_retorno, valor) VALUES (2, 2, 2, "2023-12-03", "2023-12-10", 100);
